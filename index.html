@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Millionaire Trivia Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+</head>
+<body>
+    <div id="fireworks"></div> <!-- Moved this line to be above the game container -->
+    <div id="game">
+        <div id="question"></div>
+        <div class="choices">
+            <button class="choice" id="choiceA" onclick="chooseAnswer('A')"></button>
+            <button class="choice" id="choiceB" onclick="chooseAnswer('B')"></button>
+            <button class="choice" id="choiceC" onclick="chooseAnswer('C')"></button>
+            <button class="choice" id="choiceD" onclick="chooseAnswer('D')"></button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/fireworks-js@2.x/dist/index.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
